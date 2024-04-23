@@ -13,7 +13,7 @@ const ProductSection: React.FC = () => {
   const productWrapRef = useRef<HTMLDivElement>();
   const ProductSectionWrapRef = useRef<HTMLTableSectionElement>();
   const [productWidth, useProductWidth] = useState<number>(0);
-  const [productCardWidth, useProductCardWidth] = useState<number>(0);
+  // const [productCardWidth, useProductCardWidth] = useState<number>(0);
   const [productScroll, setProductScroll] = useState<number>(0);
   const [productSectionHeight, setProductSectionHeight] = useState<number>(0);
 
@@ -54,10 +54,10 @@ const ProductSection: React.FC = () => {
       setProductSectionHeight(footerHeight + learnMoreHeight);
     }
 
-    const prodctCard = productsRef.current.childNodes[0];
-    if (prodctCard instanceof HTMLElement) {
-      useProductCardWidth(prodctCard.offsetWidth);
-    }
+    // const prodctCard = productsRef.current.childNodes[0];
+    // if (prodctCard instanceof HTMLElement) {
+    //   useProductCardWidth(prodctCard.offsetWidth);
+    // }
   };
 
   const products = [
