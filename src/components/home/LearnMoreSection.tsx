@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "@emotion/styled";
-// @ts-ignore
 import img from "../../assets/images/section3.jpg";
 
 const LearnMoreSection: React.FC = () => {

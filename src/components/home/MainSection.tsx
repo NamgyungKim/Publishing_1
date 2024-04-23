@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import main_1 from "../../assets/images/main_1.jpg";
-import main_2 from '../../assets/images/main_2.jpg';
+import main_2 from "../../assets/images/main_2.jpg";
 import main_3 from "../../assets/images/main_3.jpg";
 
 const MainSection: React.FC = () => {
