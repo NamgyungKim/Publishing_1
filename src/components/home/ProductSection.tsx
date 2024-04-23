@@ -160,7 +160,7 @@ const Products = styled.div<{ productNum: number; productScroll: number }>`
   margin-left: 300px;
   height: calc(100vh - 100px);
   transform: translateX(calc(-${(props) => 77 * props.productScroll}%));
-  @media (max-width: 1000px) {
+  @media (max-width: 1000px) and (min-height: 1000px) {
     display: grid;
     transform: translateX(calc(-${(props) => 70 * props.productScroll}%));
     grid-template-columns: ${(props) => {
